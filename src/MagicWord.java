@@ -66,7 +66,7 @@ public class MagicWord {
 
 
     public void shoot (String wordOrLetter){
-        boolean acierto = false;
+        boolean acierto = true;
         if(wordOrLetter.length() == 1){
             for (int i = 0 ; i < hiddenWord.length(); i++){
                 if (wordOrLetter.charAt(0) == hiddenWord.charAt(i)){
